@@ -13,5 +13,7 @@ namespace FoodOrder.Models
         [Required]
         public string Title { get; set; }
         public DateTime CreateDate { get; set; } = DateTime.Now;
+        public string Description { get; set; }
+        public List<Item> Items { get; set; } = new List<Item>();
     }
 }
