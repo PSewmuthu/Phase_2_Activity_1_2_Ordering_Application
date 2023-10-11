@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace FoodOrder.Models
 {
-    internal class Address
+    public class Address
     {
         public Address(string street, string locality, string city, string zipcode)
         {
